@@ -25,6 +25,7 @@ function App() {
                 </ul>
             </nav>
         </section>
+        /* Redirect to components */
         <Switch>
             <Route path="/home" component={Home}></Route>
             <Route path="/contact" component={Contact}></Route>
